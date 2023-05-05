@@ -310,7 +310,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.699997, y: 0}
+  m_AnchoredPosition: {x: -2.7000122, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &616670760
@@ -336,7 +336,8 @@ MonoBehaviour:
   m_text: Kontynuuj...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6cdef9d1ec7e5e14c8f2fa1a95273a62, type: 2}
-  m_sharedMaterial: {fileID: -3725257999983393662, guid: 6cdef9d1ec7e5e14c8f2fa1a95273a62, type: 2}
+  m_sharedMaterial: {fileID: -3725257999983393662, guid: 6cdef9d1ec7e5e14c8f2fa1a95273a62,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -592,7 +593,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -847,10 +847,10 @@ RectTransform:
   m_Father: {fileID: 1685583978}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 524.2042, y: -320.2192}
-  m_SizeDelta: {x: 220.5914, y: 63.1615}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -110.295715, y: 31.58075}
+  m_SizeDelta: {x: 220.59143, y: 63.1615}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1871726961
 MonoBehaviour:
@@ -881,7 +881,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 0bbc4bc662eb8cc4ea71e5992425850e, type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: 0bbc4bc662eb8cc4ea71e5992425850e,
+      type: 3}
     m_PressedSprite: {fileID: 21300000, guid: 3e85b4e9fc9eb0340965803dc4dd87ef, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
