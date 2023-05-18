@@ -8,10 +8,13 @@ public class PlayerController : MonoBehaviour
     public float speed;
     private Vector2 move;
     private Vector3 startPosition;
+    private Animator animator;
+
 
     private void Start()
     {
         //Zapamiêtaj pozycjê startow¹ gracza
+        animator= GetComponent<Animator>();
         startPosition = transform.position;
     }
 
@@ -22,7 +25,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        movePlayer();
+        movePlayer();     
     }
 
     public void movePlayer()
@@ -32,6 +35,15 @@ public class PlayerController : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movement), 0.15f);
 
         transform.Translate(movement * speed * Time.deltaTime, Space.World);
+
+        if(movement.x != 0f || movement.y != 0f)
+        {
+            animator.SetBool("isMoving", true);
+        }
+        else
+        {
+            animator.SetBool("isMoving", false);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
