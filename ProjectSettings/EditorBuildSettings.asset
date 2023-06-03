@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cutscenka.unity
     guid: 230fda0fbc7cada428393a3e788dc686
+  - enabled: 1
+    path: Assets/Scenes/House.unity
+    guid: dfc204e177cc2e24ba1e981b4cae3f0a
   m_configObjects: {}
