@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class chasing2 : MonoBehaviour
+public class chasing4 : MonoBehaviour
 {
     NavMeshAgent agent;
     public Transform[] waypoints;
